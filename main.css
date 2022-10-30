@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.banner{
+    background-image: url("./images/Banner\ background\ image.jpg");
+    height: 40vH;
+    max-width: auto;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    text-align: center;
+    
+
+    
+}
+.banner h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    
+}
+.image_container img{
+    border-radius:50% ;
+    height: 20vh;
+    
+}
+.banner .developer{
+    justify-content: center;
+    text-align: center;
+    color: aliceblue;
+    width: 0ch;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: heading 6s infinite alternate;
+    border-right: 3px solid white;
+
+
+
+}
+.name{
+    color: aliceblue;
+}
+@keyframes heading {
+    0%{
+        width: 0ch;
+    }
+    50%{
+        width: 25ch;
+    }
+    
+}
+.about ul{
+    color: gray;
+    list-style-type: square;
+
+
+}
+
+.skill_images{
+    justify-content: center;
+    align-self: center;
+}
+.pi{
+    height: 18rem;
+}
+.contacts{
+    justify-content: space-around;
+    display: flex;
+
+}
+.footer{
+    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50%;
+    
+    color: white;
+
+}
+.footer-content{
+    gap: 20px;
+}
+.icon{
+    color: white;
+}
+.card button,.card a{
+    background-color: black;
+}
